@@ -36,8 +36,8 @@ const Navbar = () => {
                 {/* mobile link list */}
                 <div
                     className={`w-full bg-[#e6e6ff] h-screen flex flex-col items-center gap-4 font-medium text-lg justify-center absolute transition-all ease-in-out ${open
-                        ? "-right-0"
-                        : "-right-[100%]"} overflow-hidden`}>
+                        ? "block -right-0"
+                        : "hidden"}`}>
                     <Link to='/' onClick={handleLinkClick}>Beranda</Link>
                     <Link to='/posts' onClick={handleLinkClick}>Trending Prabu</Link>
                     <Link to='/posts' onClick={handleLinkClick}>Terpopuler</Link>
