@@ -14,16 +14,6 @@ body {
     animation-duration: 10000ms;
 }
 
-/* hilangkan scrollbar */
-::-webkit-scrollbar {
-    display: none; /* Untuk browser berbasis WebKit (Chrome, Safari) */
-}
-
-body {
-    -ms-overflow-style: none;  /* Untuk Internet Explorer dan Edge */
-    scrollbar-width: none;  /* Untuk Firefox */
-}
-
 .ql-snow{
     border: none !important;
 }
