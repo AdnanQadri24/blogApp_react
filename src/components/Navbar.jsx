@@ -6,6 +6,10 @@ import {SignedIn, SignedOut, UserButton} from "@clerk/clerk-react";
 const Navbar = () => {
     const [open, setOpen] = useState(false)
 
+    const handleLinkClick = () => {
+        setOpen(false); // Menutup menu
+    }
+
     return (
         <div className="w-full h-16 md:h-20 flex items-center justify-between">
             {/* logo */}
@@ -34,10 +38,10 @@ const Navbar = () => {
                     className={`w-full bg-[#e6e6ff] h-screen flex flex-col items-center gap-4 font-medium text-lg justify-center absolute transition-all ease-in-out ${open
                         ? "-right-0"
                         : "-right-[100%]"}`}>
-                    <Link to='/'>Beranda</Link>
-                    <Link to='/'>Trending Prabu</Link>
-                    <Link to='/'>Terpopuler</Link>
-                    <Link to='/write'>Ceritakan Pengalaman</Link>
+                    <Link to='/' onClick={handleLinkClick}>Beranda</Link>
+                    <Link to='/posts' onClick={handleLinkClick}>Trending Prabu</Link>
+                    <Link to='/posts' onClick={handleLinkClick}>Terpopuler</Link>
+                    <Link to='/write' onClick={handleLinkClick}>Ceritakan Pengalaman</Link>
                     <SignedOut>
                         <Link to='/login'>
                             <button className="bg-blue-600 py-2 px-4 rounded-full text-white">
@@ -50,8 +54,8 @@ const Navbar = () => {
             {/* Dekstop Menu */}
             <div className="hidden md:flex items-center 4xl:gap-12 gap-8 font-medium">
                 <Link to='/'>Beranda</Link>
-                <Link to='/'>Trending Prabu</Link>
-                <Link to='/'>Terpopuler</Link>
+                <Link to='/posts'>Trending Prabu</Link>
+                <Link to='/posts'>Terpopuler</Link>
                 <Link to='/write'>Ceritakan Pengalaman</Link>
                 <SignedOut>
                     <Link to='/login'>

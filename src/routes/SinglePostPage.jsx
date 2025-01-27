@@ -75,40 +75,6 @@ const SinglePostPage = () => {
                             yang kaya. Kuliner Prabumulih ini sangat cocok bagi mereka yang ingin mencicipi
                             cita rasa khas Sumatera Selatan yang autentik dan kaya akan rasa.
                         </p>
-                        <p>
-                            Tidak hanya wisata alam dan kuliner, Prabumulih juga memiliki potensi besar di
-                            sektor pariwisata berbasis budaya. Salah satu contoh adalah **Upacara Adat**
-                            yang masih dilestarikan oleh masyarakat setempat. Upacara adat ini menggabungkan
-                            berbagai elemen budaya tradisional, seperti tarian daerah, musik tradisional,
-                            dan ritual yang sudah ada sejak zaman nenek moyang. Pengunjung yang datang pada
-                            waktu yang tepat dapat menyaksikan langsung prosesi upacara adat ini dan
-                            merasakan suasana yang sangat khas dan penuh makna. Upacara adat ini tidak hanya
-                            menarik bagi wisatawan domestik, tetapi juga bagi wisatawan mancanegara yang
-                            tertarik untuk mempelajari lebih lanjut tentang budaya Indonesia yang kaya.
-                        </p>
-                        <p>
-                            Prabumulih juga menjadi tempat yang sangat cocok bagi mereka yang mencari
-                            ketenangan dan ingin melepaskan diri dari kesibukan kota. **Danau Toba** yang
-                            terletak di sekitar kota ini menawarkan pemandangan yang menenangkan, dengan air
-                            danau yang jernih dan dikelilingi oleh pegunungan hijau. Pengunjung bisa
-                            menikmati waktu yang damai dengan melakukan aktivitas seperti berperahu,
-                            memancing, atau hanya duduk santai menikmati pemandangan yang menyejukkan hati.
-                            Tempat ini sangat cocok bagi mereka yang ingin melepas stres dan menikmati
-                            keindahan alam dalam ketenangan. Banyak penginapan dan resort yang dibangun di
-                            sekitar danau, sehingga para wisatawan bisa menginap dan menikmati suasana alami
-                            dalam waktu yang lebih lama.
-                        </p>
-                        <p>
-                            Selain itu, Prabumulih juga menjadi kota yang berkembang dengan pesat, terutama
-                            dalam sektor pariwisata. Pemerintah setempat sangat mendukung pengembangan
-                            pariwisata berkelanjutan dengan fokus pada pelestarian alam dan budaya. Banyak
-                            usaha lokal yang berperan aktif dalam mempromosikan potensi pariwisata daerah
-                            ini, seperti membuka homestay dan menyediakan tur lokal yang memungkinkan
-                            wisatawan menikmati keindahan Prabumulih dari sudut pandang yang lebih dalam.
-                            Para wisatawan yang datang tidak hanya bisa menikmati keindahan alam, tetapi
-                            juga berkontribusi pada perekonomian lokal dan mendukung keberlanjutan
-                            pariwisata di kota ini.
-                        </p>
                     </div>
 
                 </div>
