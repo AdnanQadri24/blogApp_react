@@ -16,13 +16,18 @@ const Navbar = () => {
             {/* Mobile app */}
             <div className="md:hidden">
                 {/* mobile button */}
-                <div
-                    className="cursor-pointer text-4xl mx-2"
-                    onClick={() => setOpen((prev) => !prev)}>{
-                        open
-                            ? <span className="text-3xl">X</span>
-                            : <span>≡</span>
-                    }
+                <div className="flex gap-2">
+                    <SignedIn className="">
+                        <UserButton/>
+                    </SignedIn>
+                    <div
+                        className="cursor-pointer text-4xl mx-2"
+                        onClick={() => setOpen((prev) => !prev)}>{
+                            open
+                                ? <span className="text-3xl">X</span>
+                                : <span>≡</span>
+                        }
+                    </div>
                 </div>
                 {/* mobile link list */}
                 <div
@@ -33,11 +38,13 @@ const Navbar = () => {
                     <Link to='/'>Trending Prabu</Link>
                     <Link to='/'>Terpopuler</Link>
                     <Link to='/write'>Ceritakan Pengalaman</Link>
-                    <Link to='/login'>
-                        <button className="bg-blue-600 py-2 px-4 rounded-full text-white">
-                            Masuk 👋
-                        </button>
-                    </Link>
+                    <SignedOut>
+                        <Link to='/login'>
+                            <button className="bg-blue-600 py-2 px-4 rounded-full text-white">
+                                Masuk 👋
+                            </button>
+                        </Link>
+                    </SignedOut>
                 </div>
             </div>
             {/* Dekstop Menu */}
@@ -48,7 +55,8 @@ const Navbar = () => {
                 <Link to='/write'>Ceritakan Pengalaman</Link>
                 <SignedOut>
                     <Link to='/login'>
-                        <button className="bg-blue-600 py-2 px-4 rounded-full text-white hover:bg-blue-500">
+                        <button
+                            className="bg-blue-600 py-2 px-4 rounded-full text-white hover:bg-blue-500">
                             Masuk 👋
                         </button>
                     </Link>
