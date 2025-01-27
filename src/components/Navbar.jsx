@@ -1,5 +1,5 @@
 import {useState} from "react";
-import Image from "./image";
+import Image from "./Image";
 import {Link} from "react-router-dom";
 import {SignedIn, SignedOut, UserButton} from "@clerk/clerk-react";
 
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <Link to='/'>Trending Prabu</Link>
                     <Link to='/'>Terpopuler</Link>
                     <Link to='/write'>Ceritakan Pengalaman</Link>
-                    <Link to='/'>
+                    <Link to='/login'>
                         <button className="bg-blue-600 py-2 px-4 rounded-full text-white">
                             Masuk 👋
                         </button>
